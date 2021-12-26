@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 export default function Projects() {
     return(<Layout>
-            <h2 className="text-2xl font-bold text-indigo-700 my-4">Projects</h2>
+            <h2 className="title">Projects</h2>
     <div className="relative bg-gray-800 text-gray-100 sm:w-6/12 p-6 rounded-xl shadow-lg m-2 xs:w-full">
     <h3 className="text-center text-2xl font-bold my-4">Chamber Of Secrets</h3>
     <div className="top-0 -left-2 mt-3 px-2 rounded-lg absolute z-30 bg-green-500 text-gray-100 text-xs md:text-sm font-medium md:block">Rails 7, React 17, Postgres, Bootstrap</div>

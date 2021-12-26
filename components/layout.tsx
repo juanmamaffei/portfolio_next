@@ -5,7 +5,8 @@ export default function Layout({ children }) {
   return (
   <div>
     <Navbar />
-
-    { children }
+    <div className="container mx-auto group">
+      { children }
+    </div>
   </div>)
 }

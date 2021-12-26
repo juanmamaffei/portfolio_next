@@ -32,7 +32,8 @@ export default function Home() {
           <li><strong>Multimedia:</strong> audiovisual, transmedia or social media productions.</li>
         </ul>
         </div>
-        <div className="my-2 flex flex-row justify-center items-center">
+        <div className="my-2 flex flex-row flex-nowrap justify-center items-center text-center">
+          
           <Link href="/projects">
             <a className="m-2 btn-primary">Projects</a>
           </Link>
@@ -47,7 +48,12 @@ export default function Home() {
       </div>
       <div className=" bg-blue-600 w-full h-full py-5 flex flex-col items-center">
         <h2 className="text-2xl font-bold text-violet-50">Contact</h2>
-
+        <div className="align-middle text-violet-100">
+        <a href="">
+          <Image src="/images/linkedin.png" height="30px" width="30px" />
+          Find me in LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   )

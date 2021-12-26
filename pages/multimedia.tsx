@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 export default function Multimedia() {
     return(<Layout>
 
-    <h2 className="text-2xl font-bold text-indigo-700 my-4">Multimedia</h2>
+    <h2 className="title">Multimedia</h2>
 
 
   <div className="relative bg-zinc-800 text-gray-100 sm:w-6/12 xs:w-full p-6 rounded-xl shadow-lg m-2">
