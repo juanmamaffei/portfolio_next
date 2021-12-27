@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <Head>
     <title>Juan Manuel Maffei - Portfolio</title>
         <meta name="description" content="Fullstack dev and teacher portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/images/home.svg" />
     </Head>
     <Navbar blur={blur} setBlur={setBlur}/>
     <Demo blur={blur} />

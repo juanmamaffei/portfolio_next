@@ -10,7 +10,8 @@ export default function Home() {
       <Head>
         <title>Juan Manuel Maffei - Portfolio</title>
         <meta name="description" content="Fullstack dev and teacher portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/images/home.svg" />
+
       </Head>
       <div className="flex flex-col min-h-screen">
           

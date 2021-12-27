@@ -24,8 +24,8 @@ export default function Multimedia() {
     <div className="">I developed educational materials for different social networks.</div>
     <div className="my-2 flex flex-wrap justify-content items-center">
       <a className="btn-primary  m-2" href="https://www.youtube.com/watch?v=Z3rnvbCvpvk" target="_blank">YouTube example</a>
-      <a className="btn-primary  m-2" target="_blank" href="https://www.youtube.com/watch?v=tIjOVgJ2-gA">TikTok example</a>            
-      <a className="btn-primary  m-2" target="_blank" href="https://www.youtube.com/watch?v=bMSthUd9O1I">Instagram example</a>            
+      <a className="btn-primary  m-2" target="_blank" href="https://www.tiktok.com/@juanmamaffei/video/6879546030895926530">TikTok example</a>            
+      <a className="btn-primary  m-2" target="_blank" href="https://www.instagram.com/p/CCsEeRsFUvO/">Instagram example</a>            
     </div>
   </div>
    

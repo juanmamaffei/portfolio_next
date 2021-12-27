@@ -2,7 +2,7 @@
 export default function Demo ({blur}) {
     return(
         <video autoPlay muted loop className={`video ${blur}`}>         
-            <source src="/videos/bg.mp4" type="video/mp4"/>       
+            <source src="/videos/bg2.mp4" type="video/mp4"/>       
         </video>
     )
 }
