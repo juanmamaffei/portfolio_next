@@ -7,10 +7,10 @@
 
 @layer components {
     .title{
-        @apply mt-14 ml-4 text-4xl font-bold text-blue-800 my-4;
+        @apply mt-20 ml-4 text-4xl font-bold text-blue-800 my-4;
     }
     .btn-primary{
-        @apply bg-indigo-500 text-white font-bold rounded-lg py-2 px-4 shadow-lg hover:bg-blue-200 focus:ring-2
+        @apply bg-blue-500 text-white font-normal rounded-lg py-2 px-6 shadow-lg hover:bg-blue-800 hover:font-bold focus:ring-2
     }
     .btn-code{
         @apply border-2 font-mono text-sm text-white font-bold py-2 px-4 shadow-lg hover:bg-blue-200 focus:ring-2
@@ -28,15 +28,11 @@
         @apply flex flex-row items-center w-full justify-center;
     }
     .navItem {
-        @apply text-gray-400 hover:text-gray-800 text-xl py-4 cursor-pointer;
-    }
-    
-    .navItemActive {
-        @apply text-blue-600 hover:text-blue-700; 
+        @apply text-yellow-500 hover:text-gray-800 text-xl py-4 cursor-pointer;
     }
     
     .tooltip {
-        @apply absolute w-auto min-w-max left-16 font-bold text-lg hidden;
+        @apply absolute w-auto min-w-max left-16 hidden;
     }
     
     .bottomWrapper {

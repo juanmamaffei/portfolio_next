@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import Logo from './logo'
 import Image from 'next/image'
-export default function Navbar () {
+export default function Navbar ({blur,setBlur}) {
   return(
-    <nav className="bg-gray-800 wrapperXs sm:wrapper">
+    <nav className="bg-gray-800 wrapperXs sm:wrapper" onMouseLeave={()=>{setBlur('blur-none')}}
+    onMouseEnter={()=>{setBlur('blur-2xl')}}
+    >
       <div className="navListItemsXs sm:navListItems group">
         
       <div className="navItem px-4 sm:px-0">
