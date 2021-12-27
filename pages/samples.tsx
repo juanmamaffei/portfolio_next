@@ -26,7 +26,7 @@ export default function Samples() {
     <div className="font-mono">A tiny project for teach the basics of Angular.</div>
     <div className="my-2 font-mono">~/copa_argentina $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code  m-2" href="https://github.com/juanmamaffei/copa-argentina-angular" target="_blank">Repo</a>
+      <a className="btn-code  m-2" href="https://github.com/juanmamaffei/copa-argentina-angular" >Repo</a>
       
     </div>
     <div className="text-right text-sm italic text-green-600">December 2018</div>
@@ -38,8 +38,8 @@ export default function Samples() {
     <div className="font-mono">A microservice for review courses in TransmediAcademy.</div>
     <div className="my-2 font-mono">~/course-review $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code m-2" target="_blank" href="https://github.com/juanmamaffei/course_review">Repo</a>
-      <a className="btn-code m-2" target="_blank" href="https://course-ranking-demo.herokuapp.com/">Demo (Heroku)</a>
+      <a className="btn-code m-2"  href="https://github.com/juanmamaffei/course_review">Repo</a>
+      <a className="btn-code m-2"  href="https://course-ranking-demo.herokuapp.com/">Demo (Heroku)</a>
     </div>
     <div className="text-right text-sm italic text-green-600">November 2021</div>
   </div>
@@ -50,11 +50,11 @@ export default function Samples() {
     <div className="font-mono">Most of the time a customer contacts me, I can solve their problems with Wordpress in a couple of days without writing a single line of code. You can see examples below:</div>
     <div className="my-2 font-mono">https://site.com/wp-admin <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <div className="my-4"><a className="btn-code  m-2" target="_blank" href="http://eapvc.com.ar">EAPVC</a></div>
-      <div className="my-4"><a className="btn-code  m-2" target="_blank" href="http://secvc.com.ar">SECVC</a></div>
-      <div className="my-4"><a className="btn-code  m-2" target="_blank" href="http://netcorp.com.ar">NETCORP</a></div>
-      <div className="my-4"><a className="btn-code  m-2" target="_blank" href="http://netcorp.com.ar/ianews">IANews</a>    </div>        
-      <div className="my-4"><a className="btn-code  m-2" target="_blank" href="http://netcorp.com.ar/villa">VC Deriva</a>    </div>        
+      <div className="my-4"><a className="btn-code  m-2"  href="http://eapvc.com.ar">EAPVC</a></div>
+      <div className="my-4"><a className="btn-code  m-2"  href="http://secvc.com.ar">SECVC</a></div>
+      <div className="my-4"><a className="btn-code  m-2"  href="http://netcorp.com.ar">NETCORP</a></div>
+      <div className="my-4"><a className="btn-code  m-2"  href="http://netcorp.com.ar/ianews">IANews</a>    </div>        
+      <div className="my-4"><a className="btn-code  m-2"  href="http://netcorp.com.ar/villa">VC Deriva</a>    </div>        
     </div>
     <div className="text-right text-sm italic text-green-600">December 2021</div>
   </div>

@@ -12,7 +12,7 @@ export default function Projects() {
     <div className="font-mono">🔏 A simple, safe and collaborative password manager 🔑. This is a personal project, initially planned for solving problems in EAPVC. Was developed (from the idea to deploy) in 40 hours.</div>
     <div className="my-2 font-mono">~/chamber_of_secrets $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code  m-2" href="https://github.com/juanmamaffei/chamber_of_secrets" target="_blank">Repo</a><a className="btn-code m-2" href="http://chamberofsecrets.xyz" target="_blank">App</a>
+      <a className="btn-code  m-2" href="https://github.com/juanmamaffei/chamber_of_secrets">Repo</a><a className="btn-code m-2" href="http://chamberofsecrets.xyz">App</a>
     </div>
     <div className="text-right text-sm italic text-green-600">Developed in December 2021</div>
   </div>
@@ -23,8 +23,8 @@ export default function Projects() {
     <div className="font-mono">In few words, a virtual wallet for clients fidelization 💲. It was developed for a specific client called Copicard and scaled for others. I developed, promoted in social media and got the clients. Due the pandemic (and my tiredness), it was ended.</div>
     <div className="my-2 font-mono">~/praemium $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code m-2" href="https://bitbucket.org/juanmamaffei/praemium" target="_blank">Repo</a><a className="btn-code m-2" href="https://praemium.herokuapp.com/" target="_blank">Demo</a>
-      <a className="btn-code" href="https://jmmaffei.com/que-fue-praemium/" target="_blank">More info</a>
+      <a className="btn-code m-2" href="https://bitbucket.org/juanmamaffei/praemium">Repo</a><a className="btn-code m-2" href="https://praemium.herokuapp.com/">Demo</a>
+      <a className="btn-code" href="https://jmmaffei.com/que-fue-praemium/">More info</a>
     </div>
     <div className="text-right text-sm italic text-green-600">Started in 2018. Ended in 2020</div>
 
@@ -36,8 +36,8 @@ export default function Projects() {
     <div className="font-mono">📚 This is a complete virtual learning environment thinked for transmedia (the content flows in multiple platforms and promotes a lot of user-student generated content) and mobile-first 👨‍🏫. The initial idea started in my MBA thesis project.</div>
     <div className="my-2 font-mono">~/transmediAcademy $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code  m-2" href="https://github.com/juanmamaffei/transmediAcademy" target="_blank">Repo</a>
-      <a className="btn-code m-2" href="http://transmediacademy.com" target="_blank">Demo (partial)</a>
+      <a className="btn-code  m-2" href="https://github.com/juanmamaffei/transmediAcademy">Repo</a>
+      <a className="btn-code m-2" href="http://transmediacademy.com">Demo (partial)</a>
       
     </div>
     <div className="text-right text-sm italic text-green-600">Available in 2022</div>
@@ -49,7 +49,7 @@ export default function Projects() {
     <div className="font-mono">👚👚 It is a fragment of a SaaS for laundries. It was developed for a private client.</div>
     <div className="my-2 font-mono">~/lavago $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code  m-2" href="https://bitbucket.org/lavago/lavago-fullstack" target="_blank">Repo</a>
+      <a className="btn-code  m-2" href="https://bitbucket.org/lavago/lavago-fullstack">Repo</a>
       <a className="btn-code m-2" href="">Demo</a>
       
     </div>
@@ -63,7 +63,7 @@ export default function Projects() {
     <div className="my-2 font-mono">~/ludere $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
       <a className="btn-code m-2" href="" target="_blank">Repos</a>
-        <a className="btn-code" href="" target="_blank">More info</a>
+        <a className="btn-code" href="">More info</a>
     </div>
     <div className="text-right text-sm italic text-green-600">Developed in 2017</div>
   </div>

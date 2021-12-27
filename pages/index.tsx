@@ -26,7 +26,7 @@ export default function Home() {
               }}
             >
               <h1 className="text-5xl my-5 font-extrabold ">
-                Juan Manuel Maffei's Portfolio
+                Juan Manuel Maffei{"'"}s Portfolio
               </h1>
 
           <Image src="/images/profile.jpg" height={144} width={144} className="rounded-full shadow-lg"/>
@@ -48,7 +48,7 @@ export default function Home() {
 
           </div>
           <div className="text-xl">
-          <p>Hi! I'm a fullstack dev, content creator and teacher. Here, you will find some works.</p>
+          <p>Hi! I{"'"}m a fullstack dev, content creator and teacher. Here, you will find some works.</p>
           <ul className="m-10">
           <Link href="/projects">
             <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Projects:</strong> full development projects for me and for clients. </motion.li></Link>
@@ -83,12 +83,12 @@ export default function Home() {
             visible: { scale:1, opacity:1, transition:{delay: 3}}
           }}>
             <div className="mr-2">
-              <a href="https://www.linkedin.com/in/juanmamaffei/" target="_blank">
+              <a href="https://www.linkedin.com/in/juanmamaffei/" >
               <Image src="/images/linkedin.png" height="30px" width="30px" />
             </a>
             </div>
             <div className=""> 
-              <a href="https://www.linkedin.com/in/juanmamaffei/" target="_blank">
+              <a href="https://www.linkedin.com/in/juanmamaffei/" >
             Find me in LinkedIn
             </a>
             </div>

@@ -40,7 +40,7 @@ export default function Navbar ({blur,setBlur}) {
           </Link>
         </div>
         <div className="navItem px-4 group sm:px-0">
-          <a href="https://www.linkedin.com/in/juanmamaffei/" target="_blank">
+          <a href="https://www.linkedin.com/in/juanmamaffei/" >
             <Image src="/images/linkedin.png" height="30px" width="30px" /><span className="tooltip group-hover:sm:inline">Linkedin</span>
           </a>
         </div>
