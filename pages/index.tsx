@@ -7,10 +7,9 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-blue-600">
       <Head>
-        <title>Juan Manuel Maffei - Porfolio</title>
+        <title>Juan Manuel Maffei - Portfolio</title>
         <meta name="description" content="Fullstack dev and teacher portfolio" />
         <link rel="icon" href="/favicon.ico" />
-
       </Head>
       <div className="flex flex-col min-h-screen">
           
@@ -24,15 +23,15 @@ export default function Home() {
           </div>        
         </div>      
         
-        <div className="flex-auto text-purple-200 bg-stone-900 w-full p-5 flex flex-col auto-cols-max items-center">
-          <div className="flex-auto">
+        <div className="flex-auto flex flex-col items-center justify-center text-white bg-stone-900 w-full p-5 text-center">
+          <div className="w-full md:8-12 lg:w-6/12">
+            <div className="container">
           <h2 className="text-3xl font-bold my-4">About</h2>
 
           </div>
-          <div className="flex-auto text-lg">
+          <div className="text-xl">
           <p>Hi! I'm a fullstack dev, content creator and teacher. Here, you will find some works.</p>
-          <p>I divide it in:</p>
-          <ul className="m-2">
+          <ul className="m-10">
           <Link href="/projects">
             <li className="list"><strong>Projects:</strong> full development projects for me and for clients. </li></Link>
             <Link href="/samples">
@@ -42,6 +41,9 @@ export default function Home() {
             <li className="list"><strong>Multimedia:</strong> audiovisual, transmedia or social media productions.</li>
             </Link>
           </ul>
+          </div></div>
+          <div className="hidden md:inline w-4/12 pl-10">
+            <Image src="/images/home.svg" height="300px" width="300px" />
           </div>
         </div>
         <div className="w-full h-full py-5 flex flex-col items-center font-black">
