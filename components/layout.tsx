@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from "./navbar";
 import Head from 'next/head'
+import Demo from '../pages/demo';
 
 export default function Layout({ children }) {
   const [blur, setBlur] = useState('blur-none')
@@ -12,6 +13,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
     </Head>
     <Navbar blur={blur} setBlur={setBlur}/>
+    <Demo blur={blur} />
     <div className={`sm:mx-16 ${blur}`}>
       { children }
     </div>
