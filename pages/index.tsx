@@ -48,7 +48,7 @@ export default function Home() {
 
           </div>
           <div className="text-xl">
-          <p>Hi! I{"'"}m a fullstack dev, content creator and professor. Here, you will find some of the projects I've worked on.</p>
+          <p>Hi! I{"'"}m a fullstack dev, content creator and professor. Here, you will find some of the projects I{"'"}ve worked on.</p>
           <ul className="m-10">
           <Link href="/projects">
             <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Projects:</strong> personal and customer comissioned projects using Ruby On Rails and React. </motion.li></Link>

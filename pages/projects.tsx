@@ -23,7 +23,7 @@ export default function Projects() {
     <div className="font-mono"> 💲 In a few words, it consists on a virtual wallet for clients fidelization. It was developed for a specific client called Copicard and scaled for others. I developed the whole system, promoted it in social media and got the clients. This project was ended due to the pandemic (and my tiredness).</div>
     <div className="my-2 font-mono">~/praemium $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code m-2" href="https://bitbucket.org/juanmamaffei/praemium">Repo</a><a className="btn-code m-2" href="https://praemium.herokuapp.com/">Demo</a>
+      <a className="btn-code m-2" href="https://bitbucket.org/juanmamaffei/praemium">Repo</a>
       <a className="btn-code" href="https://jmmaffei.com/que-fue-praemium/">More info</a>
     </div>
     <div className="text-right text-sm italic text-green-600">Started in 2018. Ended in 2020</div>
@@ -49,9 +49,7 @@ export default function Projects() {
     <div className="font-mono">👚👚 It is a fragment of a SaaS for laundries. It was developed for a private client.</div>
     <div className="my-2 font-mono">~/lavago $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code  m-2" href="https://bitbucket.org/lavago/lavago-fullstack">Repo</a>
-      <a className="btn-code m-2" href="">Demo</a>
-      
+      <a className="btn-code  m-2" href="https://bitbucket.org/lavago/lavago-fullstack">Repo</a>      
     </div>
     <div className="text-right text-sm italic text-green-600">Developed in 2019</div>
   </div>
@@ -62,7 +60,7 @@ export default function Projects() {
     <div className="font-mono">🎮 At first, it was only a module for gamification at external virtual learning environments. Eventually, it became a learning environment itself 👾.</div>
     <div className="my-2 font-mono">~/ludere $ <span className="animate-ping">_</span></div>
     <div className="my-2 flex flex-wrap justify-content items-center">
-      <a className="btn-code m-2" href="https://bitbucket.org/juanmamaffei/ludere/src/master/" target="_blank">Repo 1</a>
+      <a className="btn-code m-2" href="https://bitbucket.org/juanmamaffei/ludere/src/master/">Repo 1</a>
       <a className="btn-code m-2" href="https://github.com/juanmamaffei/ludere-old">Repo 2</a>
       <a className="btn-code m-2" href="https://github.com/juanmamaffei/ludere-old2">Repo 3</a>
       <a className="btn-code m-2" href="https://github.com/juanmamaffei/ludereweb">Repo 4</a>
