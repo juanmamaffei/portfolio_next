@@ -48,12 +48,12 @@ export default function Home() {
 
           </div>
           <div className="text-xl">
-          <p>Hi! I{"'"}m a fullstack dev, content creator and teacher. Here, you will find some works.</p>
+          <p>Hi! I{"'"}m a fullstack dev, content creator and professor. Here, you will find some of the projects I've worked on.</p>
           <ul className="m-10">
           <Link href="/projects">
-            <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Projects:</strong> full development projects for me and for clients. </motion.li></Link>
+            <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Projects:</strong> personal and customer comissioned projects using Ruby On Rails and React. </motion.li></Link>
             <Link href="/samples">
-            <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Other works:</strong> pieces of another works or using other technologies.</motion.li>
+            <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Other works:</strong> experimental software using different technologies (Next JS, Angular JS, Ruby, Wordpress).</motion.li>
             </Link>
             <Link href="/multimedia">
             <motion.li className="list" whileHover={{ scale: 1.1, transition:{duration:.2}}}><strong>Multimedia:</strong> audiovisual, transmedia or social media productions.</motion.li>
